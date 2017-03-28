@@ -23,7 +23,6 @@ npm run build --report
 
 有以下三种方式使用：
 
-```
 Vue.axios.get(api).then((response) => {
   console.log(response.data)
 })
@@ -35,7 +34,6 @@ this.axios.get(api).then((response) => {
 this.$http.get(api).then((response) => {
   console.log(response.data)
 })
-```
 
 更多信息：
 [axios](https://github.com/mzabriskie/axios)
