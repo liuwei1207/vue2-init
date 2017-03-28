@@ -7,6 +7,11 @@ const strict = process.env.NODE_ENV !== 'production';
 
 const state = {
     // 存放状态与数据
+
+    // 页面设置参数
+    pageOptions: {
+        theme: 'dark'
+    }
 };
 
 export const mutations = {

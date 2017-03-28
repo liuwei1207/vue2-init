@@ -1,15 +1,19 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloPage from '@/pages/Hello/index.vue';
+import Vue from 'vue';
+import Router from 'vue-router';
 
-Vue.use(Router)
+
+// ---------------------
+// 加载页面/组件
+// ---------------------
+import DevicePage from '@/pages/Device/index.vue';
+
+Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloPage',
-      component: HelloPage
-    }
-  ]
+    // 路由配置文件
+    routes: [{
+        path: '/',
+        name: 'DevicePage',
+        component: DevicePage
+    }]
 })

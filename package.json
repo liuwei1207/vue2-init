@@ -1,5 +1,5 @@
 {
-  "name": "vue2-init",
+  "name": "vue2-ZHIOT",
   "version": "1.0.0",
   "description": "A vue2 init project",
   "author": "Lewis <116402157@163.com>",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "axios": "^0.15.3",
-    "iview": "^2.0.0-rc.6",
+    "iview": "^2.0.0-rc.7",
     "vue": "^2.2.2",
     "vue-axios": "^2.0.1",
     "vue-router": "^2.2.0",
